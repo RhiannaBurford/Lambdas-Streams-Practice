@@ -13,7 +13,7 @@ public class Exercise2 {
         Scanner sinput = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String input = sinput.nextLine();
-        // Using a method reference is more efficient
+        // Using a method reference is clear
         CheckEmpty isEmpty = String::isEmpty;
         System.out.println(isEmpty.checkEmpty(input) 
         ? "The string is empty" 
