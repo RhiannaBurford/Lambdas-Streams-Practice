@@ -16,6 +16,6 @@ public class Exercise8 {
         String character = sinput.nextLine().toLowerCase();
         checkString check = (String s, String c) -> s.contains(c);
         System.out.println(check.containsChar(word, character));
-
+        sinput.close();
     }
 }
