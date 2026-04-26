@@ -9,7 +9,6 @@ public class L1 {
         String s = "Lambdas are cool";
         LinkedList<String> messages = new LinkedList<String>();
         messages.add(s);
-
         messages.stream().forEach(a -> System.out.println(a.toUpperCase()));
     }
 }
